@@ -29,7 +29,7 @@ public class Scannersample {
 		String adress;
 		
 		System.out.print("당신의 취미를 입력하세요 : ");
-		hobby = sc.next(); //sc.next(); ->공백을 받지 않음 붙여쓰는것만 가능
+		hobby = sc.next();
 		System.out.print("당신이 좋아하는 음식을 입력하세요 : ");
 		food = sc.next();
 		System.out.print("당신의 주소를 입력하세요 : ");
