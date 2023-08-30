@@ -21,12 +21,15 @@ public class SwitchCoffe {
 			case 1:
 				System.out.println("아메리카노 주문");
 				isChoice = true;
+				break;
 			case 2:
 				System.out.println("카페라떼 주문");
 				isChoice = true;
+				break;
 			case 3:
 				System.out.println("홍차");
 				isChoice = true;
+				break;
 			default : 
 				System.out.println("잘못된 선택입니다. 다시 선택해주세요.");
 		}
