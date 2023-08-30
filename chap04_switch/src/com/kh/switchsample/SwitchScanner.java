@@ -35,11 +35,9 @@ public class SwitchScanner {
 
 	switch (snack) {
 		case 1:
-			System.out.println("ÃËÃËÇÑ ÃÊÄÚÄ¨");			
-			break;
+		
 		case 2:
-			System.out.println("²¿±òÄÜ");
-			break;
+		
 		case 3:
 			System.out.println("Æ÷Å×ÅäÄ¨");
 			break;
