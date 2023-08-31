@@ -31,12 +31,11 @@ public class for02 {
 		int num4 = sc.nextInt();
 		
 		int result2 = 0;
-		for(int i = 1; i<=num2; i++) {
-			result += num1;
-		System.out.println("구구단 : " + num3 + " * " + num4 + i + " = " + result2);
+		for(int i = 1; i<= num4; i++) {
+			result2 += num3;
+			System.out.println("구구단 : " + num3 + " * " +  i + " = " + result2);
 		//num3,4를 고정시킨 값이기 때문에 5*6으로만 출력됨 따라서 출력값에 i를 넣어주면 1,2,3,4,5로 올라간다
 		}
-		
 		
 	}
 
