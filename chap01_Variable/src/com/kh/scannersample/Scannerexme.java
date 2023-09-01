@@ -1,5 +1,5 @@
 package com.kh.scannersample;
-
+ 
 import java.util.Scanner;
 
 public class Scannerexme {
