@@ -18,6 +18,8 @@ public class Array04 {
 			귤에는 오렌지
 		 */
 		
+		//			length		총 5개 (1~5)
+		//		 	index		 0		1	  2		 3	   4
 		String[] fruitArray = {"사과", "딸기", "키위", "메론", "귤"};
 		fruitArray[0] = "바나나";
 		fruitArray[1] = "수박";
@@ -30,6 +32,8 @@ public class Array04 {
 		System.out.println("키위 대신 " + fruitArray[2]);
 		System.out.println("메론 대신 " + fruitArray[3]);
 		System.out.println("귤 대신 " + fruitArray[4]);
+		
+		
 
 	}
 
