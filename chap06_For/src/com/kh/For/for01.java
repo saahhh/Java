@@ -1,4 +1,4 @@
-package chap06_For;
+package com.kh.For;
 
 public class for01 {
 

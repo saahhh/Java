@@ -22,10 +22,13 @@ public class Practice6 {
 		System.out.println(start + " 부터" + end + "까지 숫자");
 		for (int i = start; i <= end; i++) {
 			System.out.println(i);
-		
-			
-		
 		}
+		if(start < end) {
+		//(만약에 첫 번째 숫자가 두 번째 숫자보다 작을 때) {
+		
+		}else if(end < start) {
+		//(만약 두 번째 숫자가 첫 번째 숫자보다 작을 때) {
 	}
 
+}
 }

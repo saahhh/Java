@@ -1,4 +1,4 @@
-package chap06_For;
+package com.kh.For;
 
 import java.util.Scanner;
 
