@@ -11,10 +11,9 @@ public class Practice7 {
 		
 		System.out.println("Á¤¼ö : ");
 		int i = sc.nextInt();
-		int[] num = new int[i];
+		int[] arr = new int[i];
 		
-		
-	
+		System.out.println();
 		
 	}
 
