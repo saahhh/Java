@@ -9,6 +9,7 @@ public class PlayerCharacter {
 	 getter
 	   데이터의 복사본을 던져주기 때문에 원래 객체의 데이터는 손상시키지 않기때문에
 	   원본데이터는 안전함	 
+	   getter는 검증된 setter의 정보를 받아서 출력하는것
 	*/
 
 	public String getName() {
@@ -51,7 +52,10 @@ public class PlayerCharacter {
 		}
 		
 	}
-
+//	//valid -> 검증할 때 쓰는 이름
+//	public void isValidHealth() {
+//		
+//	}
 	
 	//캐릭터 정보 출력
 	public void displayInfo() {
