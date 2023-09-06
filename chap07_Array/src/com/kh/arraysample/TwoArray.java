@@ -10,7 +10,11 @@ public class TwoArray {
 				{"Kiwi","Mango","pinApple"}
 				
 		};
+		
 		System.out.println("fruits.length : " + fruits.length);
+		System.out.println("fruits[0].length : " + fruits[0].length);
+		System.out.println("fruits[1].length : " + fruits[1].length);
+		System.out.println("fruits[2].length : " + fruits[2].length);
 		for(int i = 0; i < fruits.length; i++) { //fruits.length로만 쓰면 cherry는 출력되지 않음, fruits[i]로 입력해줘야함
 			System.out.println("첫번째 포문(행) : " + i);
 			for(int a = 0; a < fruits[i].length; a++) {
@@ -21,8 +25,6 @@ public class TwoArray {
 			
 		}
 		
-		
-
 	}
 
 }
