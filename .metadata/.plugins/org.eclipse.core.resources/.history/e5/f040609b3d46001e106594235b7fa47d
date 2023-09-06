@@ -1,9 +1,0 @@
-package com.kh.scannersample;
-
-public class Scannersample {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		
-		
-	}
-}

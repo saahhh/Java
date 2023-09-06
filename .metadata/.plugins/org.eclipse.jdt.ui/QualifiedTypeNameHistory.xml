@@ -5,4 +5,8 @@
     <fullyQualifiedTypeName name="com.kh.classSample.Student"/>
     <fullyQualifiedTypeName name="com.kh.example.pracice2.model.vo.Product"/>
     <fullyQualifiedTypeName name="com.kh.example.practice3.model.vo.Circle"/>
+    <fullyQualifiedTypeName name="com.kh.example.practice1.model.vo.Member"/>
+    <fullyQualifiedTypeName name="com.kh.example.practice4.model.vo.Student"/>
+    <fullyQualifiedTypeName name="com.kh.classAM.AM"/>
+    <fullyQualifiedTypeName name="com.kh.example.practice2.model.vo.Product"/>
 </qualifiedTypeNameHistroy>
