@@ -8,7 +8,6 @@ public class LocalVariable {
 		
 		//다른 클래스나 파일에서는 상속을 받지 않으면 변수에 접근할 수 없음
 		
-
 	}
 
 }
