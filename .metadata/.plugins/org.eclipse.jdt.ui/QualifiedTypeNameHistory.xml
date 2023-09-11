@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.kh.classSample.Student"/>
     <fullyQualifiedTypeName name="com.kh.example.pracice2.model.vo.Product"/>
     <fullyQualifiedTypeName name="com.kh.example.practice3.model.vo.Circle"/>
@@ -8,5 +7,18 @@
     <fullyQualifiedTypeName name="com.kh.example.practice4.model.vo.Student"/>
     <fullyQualifiedTypeName name="com.kh.classAM.AM"/>
     <fullyQualifiedTypeName name="com.kh.example.practice2.model.vo.Product"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.kh.Pattern.mvc.Model.UserModel"/>
+    <fullyQualifiedTypeName name="com.kh.Pattern.mvc.Controller.UserController"/>
+    <fullyQualifiedTypeName name="com.kh.Pattern.mvc.View.UserView"/>
+    <fullyQualifiedTypeName name="com.kh.Pattern.mvc.Model.StudentModel"/>
+    <fullyQualifiedTypeName name="com.kh.Pattern.mvc.Controller.StudentController"/>
+    <fullyQualifiedTypeName name="com.kh.Pattern.mvc.View.StudentView"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.circle.mo.CircleModel"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.circle.vo.CircleView"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.person.mo.PersonModel"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.person.vo.PersonView"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.person.co.PersonController"/>
 </qualifiedTypeNameHistroy>
