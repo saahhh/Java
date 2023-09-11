@@ -12,7 +12,7 @@ public class PersonController {
 		this.view = view;
 	}
 	public void run() {
-		String userInput = view.getUserInput();
+		String userInput = view.getUserInput(); //
 		model.setString(userInput);
 		String result = model.name();
 		view.displayInfo(result);
