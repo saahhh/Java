@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class InPutStreamMain {
 /*
- FileInputStram
+ FileInputStream
  	파일을 읽을 때 사용되는 클래스
  	파일로부터 데이터를 바이트 스트림으로 읽어들일 때 유용하게 사용
  	int read() : 파일에서 다음 데이터를 읽고 반환
