@@ -13,6 +13,7 @@ public class PracticeCollection {
 		PracticeCollection pc = new PracticeCollection();
 		pc.practiceList();
 		pc.practiceSet();
+		pc.practiceMap();
 	}
 	
 	public void practiceList() {
@@ -43,15 +44,20 @@ public class PracticeCollection {
 		for(String number : pSet) {
 			System.out.println(number);
 		}
-	//Map 
-		Map<String, Integer> myMap = new HashMap<>();
-		myMap.put("강아지", 1);
-		myMap.put("고양이", 2);
-		myMap.put("너구리", 5);
-		myMap.put("햄스터", 3);
 		
-		for(String animal : myMap.keySet()) {
-			int code = myMap.get(animal);
+	}	
+		
+		
+	//Map 
+	public void practiceMap() {
+		Map<String, Integer> pMap = new HashMap<>();
+		pMap.put("강아지", 1);
+		pMap.put("고양이", 2);
+		pMap.put("너구리", 5);
+		pMap.put("햄스터", 3);
+		
+		for(String animal : pMap.keySet()) {
+			int code = pMap.get(animal);
 			System.out.println(animal + " : " + code);
 			
 		}
