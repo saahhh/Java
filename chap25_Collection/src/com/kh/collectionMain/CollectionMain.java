@@ -1,8 +1,10 @@
 package com.kh.collectionMain;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class CollectionMain {
@@ -31,7 +33,19 @@ public class CollectionMain {
 			System.out.println(number);
 		}
 		
+		//Map 예제
+		Map<String, Integer> myMap = new HashMap<>();
+		//Map<String, Integer>
+		myMap.put("한국", 1);
+		myMap.put("일본", 90);
+		myMap.put("중국", 8932);
+		myMap.put("미국", 2);
+		myMap.put("스페인", 45);
+		myMap.put("스페인", 42); //중복이 되지 않고 가장 마지막에 들어간 내용이 출력이 된다
 		
+		for(String country : myMap.keySet()) {
+			int code = myMap.get(country);
+			System.out.println(country + " : " + code);
+		}
 	}
-
 }
