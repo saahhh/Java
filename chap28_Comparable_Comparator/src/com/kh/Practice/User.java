@@ -3,7 +3,7 @@ package com.kh.Practice;
 public class User implements Comparable<User>{
 //CompareExam -> User, Student, Actor  rename
 //implement Compare
-//
+	
 	private String name;
 	private int age;
 	

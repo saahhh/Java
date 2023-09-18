@@ -1,6 +1,7 @@
 package com.kh.Comparable;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CompareMain {
@@ -12,7 +13,7 @@ public class CompareMain {
 		people.add(new Person("학생3",71));
 		
 		//나이를 기준으로 정렬
-		//Collections.short(people);
+		Collections.sort(people); //출력이 나이순으로 정렬됨
 		for(Person person : people) {
 			System.out.println(person);
 		}
