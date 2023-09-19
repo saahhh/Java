@@ -90,12 +90,6 @@ public class Variable {
         System.out.println("저의 취미는 " + baseball + "입니다.");
         
         char score = 'a';
-        System.out.println("저의 성적은 " + score + "입니다.");
-        
-        
-        
-        
-        
+        System.out.println("저의 성적은 " + score + "입니다.");    
    }
-        
 }

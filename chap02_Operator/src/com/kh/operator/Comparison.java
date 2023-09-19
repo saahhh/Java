@@ -31,9 +31,5 @@ public class Comparison {
 		
 		boolean isEqual2 = p != r; //p와 q의 값이 같게 나오기 때문에 false
 		System.out.println("p != r : " + isEqual2);
-		
-		
-		
 	}
-
 }

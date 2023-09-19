@@ -76,10 +76,5 @@ public class VariableConversion {
 		
 		//int를 short로 형변환 1개 출력
 		
-		
-		
-	}
-	
-	
-	
+		}
 }

@@ -11,8 +11,6 @@ public class Arithmetic {
 		System.out.println("빼기 - : " + (num1 - num2));
 		System.out.println("곱하기 * : " + (num1 * num2));
 		System.out.println("나누기 몫 / : " + (num1 / num2));
-		System.out.println("나누기 나머지 % " + (num1 % num2));
-		
+		System.out.println("나누기 나머지 % " + (num1 % num2));	
 	}
-
 }

@@ -15,7 +15,6 @@ public class VariablePractice3 {
 		height = sc.nextDouble();
 		
 		System.out.println("가로 : " + width + " 세로 : " + height);
-		
-		
+
 	}
 }
