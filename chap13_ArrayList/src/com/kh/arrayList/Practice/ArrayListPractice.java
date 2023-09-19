@@ -72,5 +72,4 @@ public class ArrayListPractice {
 //		System.out.println("최후 출력 : " + raindow.get(0) + raindow.get(7) + raindow.get(8) );
 //		
 	}
-
 }
