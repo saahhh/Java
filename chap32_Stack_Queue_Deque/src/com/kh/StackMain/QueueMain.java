@@ -14,6 +14,7 @@ public class QueueMain {
 		 * | 1 | <- | 2 | <- | 3 |
 		 * +---+ 	+---+	 +---+
 		 * */
+		//queue는 맛집이라고 생각해보자. 먼저 기다린 사람이 먼저 먹고 나온다는 걸 생각해보기!!
 		
 		//큐 Queue 생성
 		Queue<String> queue = new LinkedList<>();

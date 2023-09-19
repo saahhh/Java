@@ -68,6 +68,5 @@ public class PracticeMain {
 			String element = queue.poll();
 			System.out.println(element);
 		}
-			
 	}
 }
