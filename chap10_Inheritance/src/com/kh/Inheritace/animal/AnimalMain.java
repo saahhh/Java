@@ -16,12 +16,10 @@ public class AnimalMain {
 		Lion myLion = new Lion("사자");
 		myLion.run();
 		myLion.eat();
-		
-		
+
 		Monkey myMonkey = new Monkey("원숭이");
 		myMonkey.speak();
 		myMonkey.sleep();
 	}
-
 }
 

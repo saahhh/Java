@@ -22,8 +22,6 @@ public class Animal { //동물 클래스 정의
 		System.out.println(name +" 먹이를 먹습니다.");
 	}
 	public void sleep() {
-		System.out.println(name + " 이 잠을 잡니다.");
-		
+		System.out.println(name + " 이 잠을 잡니다.");	
 	}
-	
 }

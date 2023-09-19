@@ -32,7 +32,6 @@ public class CalculatorRun extends CalculatorForMod{
 		System.out.println("Mod : " + result5);
 		
 	}
-
 }
 
 
