@@ -24,5 +24,5 @@ public class GameMain {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}	
+	}
 }
