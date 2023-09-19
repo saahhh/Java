@@ -20,8 +20,6 @@ public class While04 {
 		System.out.println("sum 은 : " + sum);
 		/*
 		 while이 종료되었다고해서 클래스가 종료된 것은 아니기 때문에 while문이 종료된 후 남아있는 System.out.pritnln(sum)이 출력된다.
-		*/
-		
+		*/	
 	}
-
 }
