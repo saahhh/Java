@@ -63,6 +63,5 @@ public class for01 {
 			mul = 2 * i;
 			System.out.println("±¸±¸´Ü : " + mul);
 		}
-
 	}
 }
