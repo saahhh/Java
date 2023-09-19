@@ -8,16 +8,16 @@ public class DequeueMain {
 	public static void main(String[] args) {
 		
 		/*
-		 *        시작					 끝
-		 *         | 					 |
-		 *         v					 v
+		 *        시작					    끝
+		 *         | 				        |
+		 *         v					    v
 		 *      [first] <-> [second] <-> [third]
 		 * 
 		 *   ^									 ^
 		 *   |									 |
 		 * [   ] 							   [   ]
 		 * */
-		
+		 
 		// ArrayDequeue 사용하여 Dequeue 생성
 		Deque<String> deque = new ArrayDeque<>();
 		
