@@ -10,8 +10,6 @@ public class SuperMain {
 		System.out.println("*****************");
 		
 		child2.display(); //super.display();했을 때 어떻게 되는지?
-		//super.display(); 를 사용하고 싶다면 어떻게 해야하는지?
-		
+		//super.display(); 를 사용하고 싶다면 어떻게 해야하는지?	
 	}
-
 }

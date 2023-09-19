@@ -39,6 +39,5 @@ super. °ú super()
  			Child ch2 = new Child();
  			
  			ch2.display();
- 			
  		}
  	}		

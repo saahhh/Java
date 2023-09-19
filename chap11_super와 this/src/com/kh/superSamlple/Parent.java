@@ -20,7 +20,6 @@ public class Parent {
 	public void show() {
 		System.out.println("부모 클래스의 show 메서드 입니다.");
 	}
-
 }
 
 
