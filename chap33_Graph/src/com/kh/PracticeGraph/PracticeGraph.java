@@ -63,8 +63,7 @@ public class PracticeGraph {
 		g.addEdge(5, 8);
 		g.addEdge(7, 9);
 		System.out.println();
-		System.out.println("BFS 탐색 결과 : ");
+		System.out.println("BFS 탐색 결과 : "); //레벨기준으로 왼쪽부터 출력 //시작점이 0일 때 : 레벨1:0 /레벨2:1 3 / 레벨3:2 5 /레벨4:7 8 /레벨5:9
 		g.BFS(0);
-		
 	}
 }
