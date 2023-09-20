@@ -48,7 +48,7 @@ DeQueue (Double-Ended-queue)
 	addFirst(), offerFirst()   : Dequeue 맨 앞에 요소 추가
 	addLast(), offerLast()     : Dequeue 맨 뒤에 요소 추가
 	removeFirst(), pollFirst() : Dequeue 맨 앞에 요소를 제거하고 반환
-	removeLast(), pollLast() : Dequeue 맨 뒤에서 요소를 제거하고 반환
+	removeLast(), pollLast()   : Dequeue 맨 뒤에서 요소를 제거하고 반환
 	getFirst(), peekFirst()    : Dequeue 맨 앞 요소를 가져온다
 	getLast(), peekLast()      : Dequeue 맨 뒤 요소를 가져온다
 	
