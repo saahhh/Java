@@ -28,7 +28,7 @@ public class SyncMethod {
 	//메서드 레벨 동기화를 사용해서 count 변수를 증가시킨다
 	//한 번에 하나의 스레드만 접근할 수 있도록 보장
 	public synchronized void increment() {
-		count++; //thread1,2가 둘 다 count를 바라본다. count의 충돌을 막기 위해 synchronized를 사용하는 것
+		count++; //thread1,2가 둘 다 count를 바라본다. count의 충돌을 막기 위해 synchronized를 사용한 것
 	}
 	
 	/*
