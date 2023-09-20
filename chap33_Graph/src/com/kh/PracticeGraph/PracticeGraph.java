@@ -2,13 +2,20 @@ package com.kh.PracticeGraph;
 
 import java.util.LinkedList;
 
-import com.kh.GraphMain.Graph;
+import com.kh.BFS.BFSGraph;
+import com.kh.GraphMain.DFSGraph;
 
 public class PracticeGraph {
 
 	public static void main(String[] args) {
+		PracticeGraph ph = new PracticeGraph();
+		ph.DFSPracticeMain();
+		ph.BFSPracticeMain();
+	}
+	
+	public void DFSPracticeMain() {	
 		int ver = 10;
-		Graph graph = new Graph(ver);
+		DFSGraph graph = new DFSGraph(ver);
 		
 		graph.addEdge(0, 1);
 		graph.addEdge(0, 3);
@@ -31,8 +38,6 @@ public class PracticeGraph {
 			5 
 			8
 		*/ 
-	}
-}
 
  /*ver의 자리가 10미만이 안되는 이유는 public class Graph의
  public Graph(int ver) {
@@ -43,3 +48,23 @@ public class PracticeGraph {
 	}
 }
 */
+	}
+
+
+	public void BFSPracticeMain() {
+		
+		BFSGraph g = new BFSGraph(10);
+		
+		g.addEdge(0, 1);
+		g.addEdge(0, 3);
+		g.addEdge(1, 2);
+		g.addEdge(3, 5);
+		g.addEdge(2, 7);
+		g.addEdge(5, 8);
+		g.addEdge(7, 9);
+		System.out.println();
+		System.out.println("BFS 탐색 결과 : ");
+		g.BFS(0);
+		
+	}
+}

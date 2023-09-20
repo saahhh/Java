@@ -10,7 +10,7 @@ public class GraphMain {
 	
 	public static void main(String[] args) {
 		int ver = 5; //그래프 노드의 수를 5로 정의
-		Graph graph = new Graph(ver);
+		DFSGraph graph = new DFSGraph(ver);
 		
 		//add.Edge() 를 사용해 간선을 추가한 것
 		graph.addEdge(0, 1); //노드0에서 노드1로 방향이 있는 엣지를 추가
@@ -22,5 +22,6 @@ public class GraphMain {
 		//DFS 탐색을 시작할 노드의 번호를 전달하는 것
 		//0으로 시작함
 		graph.DFS(0); //시작 노드에서 출발해서 가능한 깊이 들어가서 더이상  없을 때 다시 상위 레벨로 돌아옴
+					  //결과값은 중복이 허용되지 않는다.
 	} 
 }
