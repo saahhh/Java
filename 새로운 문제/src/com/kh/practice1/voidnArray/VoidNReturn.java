@@ -1,6 +1,9 @@
 package com.kh.practice1.voidnArray;
 
-	import java.util.Scanner;
+	import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
 	/*
 	 * System.out.println();
 	 * void 활용
@@ -8,15 +11,16 @@ package com.kh.practice1.voidnArray;
 	 * static
 	 * */
 
-	public class VoidNReturn {
+	public class VoidNReturn<GenerateLottoNumbers> {
 		public static void main (String[] args) {
 			VoidNReturn vr = new VoidNReturn();
 //			vr.practice1();
-//			vr.practice2();
+			vr.practice2();
 //			vr.practice3();
 //			vr.practice4();
 //			vr.practice5();
-			vr.practice6();
+//			vr.practice6();
+			vr.GenerateLottoNumbers();
 		}
 		public void practice1() {
 			//두 수의 합 계산
@@ -53,7 +57,7 @@ package com.kh.practice1.voidnArray;
 		
 		public void practice4() {
 			Scanner scanner = new Scanner(System.in);
-	       System.out.println("숫자를 입력하세요.");
+	       
 	        int size = scanner.nextInt();
 	        
 	        int[] numbers = new int[size];
@@ -61,10 +65,10 @@ package com.kh.practice1.voidnArray;
 
 	       
 	        for (int i = 0; i < size; i++) {
-	            numbers[i] = size;
+	            numbers[i] = scanner.nextInt();
 	            sum += numbers[i];
-	        }   
-	        System.out.println("sum : " + sum);
+	        }
+	        System.out.println(sum);
 		}
 	public void practice5() {
 		Scanner scanner = new Scanner(System.in);
@@ -83,7 +87,7 @@ package com.kh.practice1.voidnArray;
             if (numbers[i] > max) {
                 max = numbers[i];
             }
-        }
+        }System.out.println(max);
 	        
 	        
 	}
@@ -101,11 +105,10 @@ package com.kh.practice1.voidnArray;
         System.out.println("숫자를 입력하세요.");
         int num = scanner.nextInt();
         
-        boolean isPrime = true;
-        		//isPrimeNumber(num);
+        boolean isPrime = isPrimeNumber(num);
         
         if (isPrime) {
-        
+        	return true;
         } else {
           
         }
@@ -122,7 +125,7 @@ package com.kh.practice1.voidnArray;
             }
         }
        //자바에 내장되어있는 Math.sqrt함수를 통해서 2부터 루트n까지의 범위에서 소수를 체크판별해주는 함수다.
-        //범위가 2부터 루트n까지인 이유는 소수는 1과 자기 자신으로만 나누어지는 숫자이기때문이다.
+       //범위가 2부터 루트n까지인 이유는 소수는 1과 자기 자신으로만 나누어지는 숫자이기때문이다.
         
 	}
     
@@ -161,7 +164,7 @@ package com.kh.practice1.voidnArray;
     */
 
     }
-    public void practice10() {
+    public void GenerateLottoNumbers() {
     	/*
     	로또 번호 생성기:
     	Random
@@ -169,7 +172,22 @@ package com.kh.practice1.voidnArray;
 
     	매개변수: 로또 번호의 개수(int 타입) count
     	기능: 중복되지 않는 무작위 로또 번호를 count만큼 생성하여 출력함(void 리턴 타입).
-    */
-
+    	*/
+    	Random rd = new Random();
+    	
+    	List<Integer> lottoNum = new ArrayList<>();
+    	
+    	int six = 6;
+    	while(lottoNum.size()<six) {
+    		int ranNumber = rd.nextInt(45)+1;
+    		
+    		if(!lottoNum.contains(ranNumber)) {
+    			lottoNum.add(ranNumber);
+    		}
+    	}
+    	System.out.println("로또 번호 : " + lottoNum);  		
+    }
+    public void RandomExam() {
+    	
     }
 }
