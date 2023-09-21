@@ -1,7 +1,7 @@
 TCP와 UDP
 	네트워크 통신 프로토콜 중 두가지 주요한 프로토콜
 	컴퓨터 간 데이터 통신을 가능하게 함
-	TCP(Transmission Control Protocol)
+	TCP(Transmission Control Protocol) 1:1방식
 		연결 지향적 프로토콜 
 		데이터를 보내거나 받을 때 먼저 연결을 설정
 		데이터 전송이 완료되면 연결을 종료
@@ -10,7 +10,7 @@ TCP와 UDP
 		신뢰성이 높음
 		스트림 지향 프로토콜이고 데이터를 연속된 스트림으로 전송한다
 		이메일 전송, 파일 다운로드 등에 쓰인다
-	UDP(User Datagram protocol)
+	UDP(User Datagram protocol) 1:n방식
 		비연결 지향적 프로토콜
 		연결 설정 없이 데이터를 전송
 		데이터가 손실될 수 있고, 순서가 바뀔 수 있다
