@@ -36,11 +36,12 @@ public class TodoList {
 			
 			String choice = sc.nextLine();
 			
-			if(choice.equalsIgnoreCase("add")) {/*문자 대문자 소문자인지 상관하지 않고 보겠다*/ 
+			//choice.equalsIgnoreCase를 사용하면 둘 다 쓰지 않아도 가능하다
+			if(/*choice.equals("add") ||*/ choice.equalsIgnoreCase("add")) {/*문자 대문자 소문자인지 상관하지 않고 보겠다*/ 
 				System.out.println("할 일을 입력하세요.");
 				String task = sc.nextLine();
 				todoList.addTask(task);
-			} else if (choice.equals("remove") || choice.equalsIgnoreCase("remove")) {/* 또는 choice.equals("REMOVE)*/
+			} else if (/*choice.equals("remove") ||*/choice.equalsIgnoreCase("remove")) {/* 또는 choice.equals("REMOVE)*/
 				System.out.println("삭제할 일의 번호를 입력하세요.");
 				try {
 					int index = Integer.parseInt(sc.nextLine()) -1;
@@ -49,15 +50,14 @@ public class TodoList {
 					System.out.println("유효하지않은 입력입니다.");
 				}
 									
-			} else if (choice.equals("list") || choice.equalsIgnoreCase("list")) {
+			} else if (/*choice.equals("list") ||*/choice.equalsIgnoreCase("list")) {
 				todoList.displayTasks();
-			} else if (choice.equals("exit") || choice.equalsIgnoreCase("exit")) {
+			} else if (/*choice.equals("exit") ||*/ choice.equalsIgnoreCase("exit")) {
 				break;
 			} else {
 				System.out.println("잘못된 명령입니다.");
 			}
 		}
-		System.out.println("어플리케이션 종료");
 		sc.close();
 	}
 
