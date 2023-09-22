@@ -24,5 +24,7 @@ public class File_IO_Main_2 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 	}
+	
 }
