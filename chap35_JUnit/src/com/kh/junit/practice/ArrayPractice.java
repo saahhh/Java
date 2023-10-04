@@ -16,10 +16,10 @@ public class ArrayPractice {
 				arr[i] = i + 1;
 		}
 	}
-		//배열값을 반환하는 메서드
-		public int[] getArray() {
-			return arr;
-		}
+	//배열값을 반환하는 메서드
+	public int[] getArray() {
+		return arr;
+	}
 
 		public void practice1() {
 
@@ -35,27 +35,28 @@ public class ArrayPractice {
 		}
 		
 		
-		private int[] arr2;
-		public ArrayPractice1(int size) {
-			arr2 = new int[size];
-			for(int i=0; i<arr2.length; i++) {
-				arr2[i] = i+1;
+		private int[] arr;
+		
+		public ArrayPractice2(int size) {
+			arr = new int[size];
+			for(int i=0; i<arr.length; i++) {
+				arr[i] = i+1;
 			}	
 		}
-		public int[] getArray() {
-			return arr2;
+		public int[] getArray2() {
+			return arr;
 		}
 		
 		public void practice2() {
 			
 			int[] arr2 = new int[10];
 			
-			for(int i = 0; i < arr2.length; i++) {
-				arr[i] = arr2.length - i;
+			for(int i = 0; i < arr.length; i++) {
+				arr[i] = arr.length - i;
 			}
 			
-			for(int i = 0; i < arr2.length; i++) {
-				System.out.print(arr2[i] + " ");
+			for(int i = 0; i < arr.length; i++) {
+				System.out.print(arr[i] + " ");
 			}
 		}
 		
