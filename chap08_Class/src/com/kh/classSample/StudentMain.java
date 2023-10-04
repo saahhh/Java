@@ -12,7 +12,7 @@ public class StudentMain {
 		/*
 		 학생을 3명 만들어서 3명 출력하기
 		 student2, student3, student4
-		 각각의 이름고 나이와 학년을 displayInfo();를 사용해서 출력하세요.
+		 각각의 이름과 나이와 학년을 displayInfo();를 사용해서 출력하세요.
 		*/
 	
 		Student student2 = new Student("kh학생",20,"2학년");
